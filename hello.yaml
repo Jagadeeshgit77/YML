@@ -1,0 +1,19 @@
+"Key" : "Value" #jst pointing out to a value and from yaml file we can get JSON, Maps, etc.
+"apple" : "Fruit"
+1 : "Number"
+---
+#lists
+- apple
+- mango
+- Apple
+---
+#block (intendation is important)
+cities:
+ - vij
+ - vzg
+ - hyd
+ ---
+ cities: [new delhi, mumbai]
+ ---
+ {mango: "fruit", age: 56}
+ ...

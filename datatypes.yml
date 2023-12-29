@@ -1,0 +1,44 @@
+name: Jagadeesh #were Jagadeesh is a variable
+fruit: "apple"
+job: "SDE"
+
+bio: |
+my name 
+is Jagadeesh
+
+# write a single line in multiple lines
+message: >
+this will 
+all be 
+in one single line
+
+#same as
+message: !!str this will all be in one single line
+
+number: 4736
+marks: 98.76
+booleanValuue: !!bool No #n, N, false, False, FALSE
+# same fro true 
+
+#specify the type
+zero: !!int 0
+positiveNum: !!int 45
+negNum: !!int -45
+binaryNum: !!int 0b11001
+octalNum: !!nt 06574
+hexa: !!int 0x45
+commaValues: !!int +500_000 #500,000
+exponential numbers: 6.023E56
+
+#floating point numbers
+marks: !!float 56.26
+infinite: !!float .inf
+not a num: .nan
+
+#null
+surname: !!null Null # or null Null ~
+
+~: this is a nul key
+# dates and time
+date: !!timestap 2023-12-28
+india time: 2023-12-26T02:56:45.01 +5:30
